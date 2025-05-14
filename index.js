@@ -1,4 +1,4 @@
-const api_root="https://a0hrjjnuvl.execute-api.us-east-1.amazonaws.com/QA"
+const api_root="https://a0hrjjnuvl.execute-api.us-east-1.amazonaws.com/QA/"
 function loadTable(){
     const xhttp = new XMLHttpRequest();
     xhttp.open("GET",api_root + "users");
